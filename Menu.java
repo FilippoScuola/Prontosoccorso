@@ -15,11 +15,13 @@ class Menu {
     
     private static Vector<Menu> inizializzaMenu(){
         Vector<Menu> menu = new Vector<>();
-        menu.add(new  Menu("-----", "-----"));
-        menu.add(new Menu("1","Inserisci persona"));
-        menu.add(new Menu("2","Togli persona"));
-        menu.add(new Menu("3","Vedi persone"));
-        menu.add(new Menu("4","Esci"));
+        menu.add(new  Menu("-------ME", "NU-------"));
+        menu.add(new Menu("1","-Inserisci persona"));
+        menu.add(new Menu("2","-Togli persona"));
+        menu.add(new Menu("3","-Vedi persone"));
+        menu.add(new Menu("4","-Esci"));
+        menu.add(new  Menu("---------", "---------"));
+        
         return menu;
     }
     
@@ -27,7 +29,7 @@ class Menu {
     public static void mostraMenu(){
         
         for(Menu opzione : opzioniMenu){
-            System.out.println(opzione.inserimento + "-" + opzione.descrizione);
+            System.out.println(opzione.inserimento + opzione.descrizione);
         }
     }
     
