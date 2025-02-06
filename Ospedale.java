@@ -48,10 +48,12 @@ class Ospedale{
         for(Persona p : cRosso){
             System.out.println(p);
         }
+        System.out.println();
         System.out.println("CODICE GIALLO");
         for(Persona p : cGiallo){
             System.out.println(p);
         }
+        System.out.println();
         System.out.println("CODICE VERDE");
         for(Persona p : cVerde){
             System.out.println(p);
