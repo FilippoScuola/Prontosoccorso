@@ -4,7 +4,7 @@
 import java.util.Scanner;
 import java.util.Vector;
 
-class Menu {
+public class Menu {
     public String inserimento, descrizione;
     
     static Vector<Menu> opzioniMenu = inizializzaMenu();

@@ -4,7 +4,7 @@
  */
 import java.util.Vector;
 
-class Ospedale {
+public class Ospedale {
     
     /**
      * Vettori che rappresentano le liste di pazienti suddivisi per codice di priorità.
